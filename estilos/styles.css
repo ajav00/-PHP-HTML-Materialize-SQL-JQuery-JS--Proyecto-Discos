@@ -1,0 +1,351 @@
+.header{
+    height: 20rem;
+    background-image: url(../Fondos/Fondos/FondoGeneral.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    
+}
+.container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.subtitulo{
+    margin-top: 5rem;
+    margin-right:2rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.nombre-sitio{
+    font-size: 2.9rem;
+    font-weight:300;
+}
+
+@media(min-width: 992px){
+    .nombre-sitio{
+        font-size: 3.4rem;
+        font-weight:300;
+    }
+}
+h3 span{
+    margin-top: 2rem;
+    display: block;
+}
+
+.nav-link span{
+    height: 100%;
+}
+.nav-item{
+    list-style: none;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.nombre-sitio span{ 
+    font-weight: 900;
+}
+.men-res{
+    color: black!important;
+}
+.nav-link{
+    color: white!important;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+
+.img-sn{
+    width: 10rem;
+    height: 10rem;
+}
+.container2{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.menu-nav:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+.sobre-nosotros h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.img-icono{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: 1rem;
+}
+
+.img-anuncio{
+    width: 100%;
+    height: 22.5rem;
+    display: block;
+}
+
+
+/*Imagenes y Contenido*/
+
+.fondo1{
+    background-image: url(../Fondos/Fondos/Fondo1.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+.fondo2{
+    background-image: url(../Fondos/Fondos/Fondo2.jpg);
+    height: 100%;
+    margin-top: -1.5rem;
+    width: 100%;
+}
+
+.test{
+    margin-top: 12rem;
+}
+.color1{
+    background-color: #459E07;
+    height: 100%;
+}
+
+.color2{
+    background-color: #98260B;
+    height: 100%;
+    margin-top: -1.5rem;
+}
+
+.imagen{
+    background-size: cover;
+    background-position: top center;
+    min-height: 10rem;
+}
+.imagen-sup,
+.imagen-inf{
+    height: 30rem;
+}
+.up{
+    text-transform: uppercase;
+}
+.imagen-inf .fondo2{
+    order: 1;
+}
+.contenido-c{
+    border-top: 1.5px solid white; 
+    border-bottom: 1.5px solid white;
+    margin-top: 5rem ;
+}
+.btn-large{
+    display: block;
+    width: 100%;
+    margin-bottom: -1rem;
+}
+.card-content,
+.card-reveal{
+    margin-top: -2.5rem;
+}
+
+@media(min-width: 768px){
+    .subtitulo{
+        margin-top: 24rem;
+    }
+    .header{
+        height: 40rem;   
+    }
+    .imagen-inf .fondo2{
+        order: unset;
+    }
+    .fondo1{
+        background-image: url(../Fondos/Fondos/Fondo1.jpg);
+        height: 100%;
+    }
+    
+    .fondo2{
+        background-image: url(../Fondos/Fondos/Fondo2.jpg);
+        height: 100%;
+        margin-top: -1.5rem;
+    }
+    .contenido-c{
+        margin-top: 11rem ;
+    }
+    
+}
+
+.fd{
+    height: 100%;
+}
+
+@media(min-width: 768px){
+    .imagen-sup,
+    .imagen-inf{
+        height: 40rem;
+        
+    }
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Baloo Da 2', cursive;
+}
+h2{
+    font-family: 'Acme', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media(min-width: 700px){
+    .img-serv img{
+        border: 6px solid white;
+        height: 35rem;
+        transition: transform .3s ease;
+        width: 100%;
+    }
+    
+
+    
+}
+
+.img-serv img{
+    border: 6px solid white;
+    height: 22rem;
+    transition: transform .3s ease;
+    width: 100%;
+}
+
+.img-serv img:hover{
+    transform: scale(1.2) rotate(10deg);
+}
+
+.serv-info{
+    background-color: white!important;
+    display: block;
+    margin: -1.5rem;
+} 
+
+.serv-info .btn-primary{
+    border-radius: 0;
+    background-color: #024634;
+    border: none;
+}
+
+.titular span{
+    font-family: 'Baloo Da 2', cursive;
+    text-transform: uppercase;
+    font-size: 4.2rem;
+    font-weight: 900;
+}
+.card-descripcion{
+    display: flex;
+    margin-left: 1.5rem;
+}
+.card-descripcion li{
+    margin-right: 2rem;
+}
+.titular-a span{
+    font-family: 'Baloo Da 2', cursive;
+    text-transform: lowercase;
+    font-size: 3.2rem;
+    font-weight: 900; 
+    
+}
+.card-title{
+    font-weight: bold;
+}
+h1{
+    font-size: 4.2rem;
+}
+
+.bg-dark{
+    background-color: #024634!important;
+}
+
+.mini-img{
+    height: 10rem;
+    width: 100%;
+}
+.img-grande{
+    width: 100%;
+}
+.fondo4{
+    background-image: url(../Fondos/Fondos/Fondo5.jpg);
+    height: 20rem;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.mis1{
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+
+
+.mis2{
+    margin-right: 15rem;
+    margin-top: 4rem;
+}
+.fondo5{
+    background-image: url(../Fondos/Fondos/Fondo7.jpg);
+    height: 20rem;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.formulario-contacto{
+    border: 2px solid #9a9a9a;
+    background-color: white;
+
+}
+.canciones{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 0.95rem;
+    padding:0; 
+}
+.canciones-cont{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.canciones .text-center{
+    font-size: 1.2rem!important;
+}
+ 
+
+.card{
+    margin-top: 5rem;
+    height: 48rem;
+}
+
+@media screen and (max-width: 500px) {
+    #Lista {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
